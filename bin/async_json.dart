@@ -5,7 +5,13 @@ import 'package:async_json/async_json.dart';
 import 'package:path/path.dart' as p;
 
 Future<void> main(List<String> arguments) async {
-  final raw = await File(p.join('data', 'books.json')).readAsString();
+  String raw;
+  try {
+    raw = await File(p.join('data', 'books.json')).readAsString();
+  } on FileSystemException {
+    print('数据文件缺失，请检查data/books.json');
+    return;
+  }
   final books = (jsonDecode(raw) as List)
       .map((e) => Book.fromJson(e as Map<String, dynamic>))
       .toList();
