@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "百年孤独", "category": "文学", "borrowCount": 320 },
+  { "id": 2, "title": "三体", "category": "科技", "borrowCount": 301 },
+  { "id": 3, "title": "史记", "category": "历史", "borrowCount": 334 },
+  { "id": 4, "title": "红楼梦", "category": "文学", "borrowCount": 390 },
+  { "id": 5, "title": "时间简史", "category": "科技", "borrowCount": 132 },
+  { "id": 6, "title": "明朝那些事儿", "category": "历史", "borrowCount": 110 },
+  { "id": 7, "title": "活着", "category": "文学", "borrowCount": 278 },
+  { "id": 8, "title": "人类简史", "category": "历史", "borrowCount": 256 },
+  { "id": 9, "title": "算法导论", "category": "科技", "borrowCount": 198 },
+  { "id": 10, "title": "围城", "category": "文学", "borrowCount": 245 }
+]
